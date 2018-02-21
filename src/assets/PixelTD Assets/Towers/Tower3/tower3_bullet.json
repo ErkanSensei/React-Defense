@@ -1,0 +1,56 @@
+{
+  "frames": [
+    {
+      "name": "1_1",
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 10,
+        "height": 10
+      }
+    },
+    {
+      "name": "1_2",
+      "rectangle": {
+        "x": 10,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 10,
+        "height": 10
+      }
+    },
+    {
+      "name": "1_3",
+      "rectangle": {
+        "x": 20,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 10,
+        "height": 10
+      }
+    }
+  ],
+  "image_name": "tower3_bullet.png"
+}

@@ -1,0 +1,22 @@
+{
+  "frames": [
+    {
+      "name": "1_1",
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 28
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 28
+      }
+    }
+  ],
+  "image_name": "enemy1.png"
+}

@@ -1,0 +1,73 @@
+{
+  "frames": [
+    {
+      "name": "rank1",
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 5,
+        "height": 10
+      }
+    },
+    {
+      "name": "rank2",
+      "rectangle": {
+        "x": 5,
+        "y": 0,
+        "width": 5,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 5,
+        "height": 10
+      }
+    },
+    {
+      "name": "rank3",
+      "rectangle": {
+        "x": 10,
+        "y": 0,
+        "width": 5,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 5,
+        "height": 10
+      }
+    },
+    {
+      "name": "rank4",
+      "rectangle": {
+        "x": 15,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 10,
+        "height": 10
+      }
+    }
+  ],
+  "image_name": "rankings.gif"
+}

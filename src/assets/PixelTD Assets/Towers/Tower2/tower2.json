@@ -1,0 +1,277 @@
+{
+  "frames": [
+    {
+      "name": "1_1",
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 26,
+        "height": 40
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 26,
+        "height": 40
+      }
+    },
+    {
+      "name": "1_2",
+      "rectangle": {
+        "x": 26,
+        "y": 0,
+        "width": 40,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_3",
+      "rectangle": {
+        "x": 66,
+        "y": 0,
+        "width": 40,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_4",
+      "rectangle": {
+        "x": 106,
+        "y": 0,
+        "width": 44,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 44,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_5",
+      "rectangle": {
+        "x": 150,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_6",
+      "rectangle": {
+        "x": 210,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_7",
+      "rectangle": {
+        "x": 270,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_8",
+      "rectangle": {
+        "x": 330,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_9",
+      "rectangle": {
+        "x": 390,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_10",
+      "rectangle": {
+        "x": 450,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_11",
+      "rectangle": {
+        "x": 510,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_12",
+      "rectangle": {
+        "x": 570,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_13",
+      "rectangle": {
+        "x": 630,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_14",
+      "rectangle": {
+        "x": 690,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_15",
+      "rectangle": {
+        "x": 750,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    },
+    {
+      "name": "1_16",
+      "rectangle": {
+        "x": 810,
+        "y": 0,
+        "width": 60,
+        "height": 50
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 60,
+        "height": 50
+      }
+    }
+  ],
+  "image_name": "tower2.gif"
+}

@@ -1,0 +1,192 @@
+{
+  "frames": [
+    {
+      "name": "health",
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 42,
+        "height": 8
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "name": "heart",
+      "rectangle": {
+        "x": 42,
+        "y": 0,
+        "width": 15,
+        "height": 13
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 15,
+        "height": 13
+      }
+    },
+    {
+      "name": "hud_menu",
+      "rectangle": {
+        "x": 57,
+        "y": 0,
+        "width": 74,
+        "height": 45
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 74,
+        "height": 45
+      }
+    },
+    {
+      "name": "hudBtn",
+      "rectangle": {
+        "x": 131,
+        "y": 0,
+        "width": 36,
+        "height": 36
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "name": "hudTowerPopup",
+      "rectangle": {
+        "x": 0,
+        "y": 45,
+        "width": 50,
+        "height": 37
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 50,
+        "height": 37
+      }
+    },
+    {
+      "name": "Mute",
+      "rectangle": {
+        "x": 50,
+        "y": 45,
+        "width": 49,
+        "height": 13
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 49,
+        "height": 13
+      }
+    },
+    {
+      "name": "pause",
+      "rectangle": {
+        "x": 99,
+        "y": 45,
+        "width": 55,
+        "height": 12
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 55,
+        "height": 12
+      }
+    },
+    {
+      "name": "popupClose",
+      "rectangle": {
+        "x": 154,
+        "y": 45,
+        "width": 24,
+        "height": 24
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "name": "restartLevel",
+      "rectangle": {
+        "x": 0,
+        "y": 82,
+        "width": 119,
+        "height": 13
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 119,
+        "height": 13
+      }
+    },
+    {
+      "name": "sell",
+      "rectangle": {
+        "x": 119,
+        "y": 82,
+        "width": 35,
+        "height": 20
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 35,
+        "height": 20
+      }
+    },
+    {
+      "name": "upgrade",
+      "rectangle": {
+        "x": 154,
+        "y": 82,
+        "width": 100,
+        "height": 20
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 100,
+        "height": 20
+      }
+    }
+  ],
+  "image_name": "UI.png"
+}
