@@ -10,6 +10,8 @@ class App extends Component {
     super();
     this.state = {
       paths: [],
+      currentX: -1000,
+      currentY: 0,
     };
     this.grid = [
       <div className="ice" />,
@@ -29,11 +31,42 @@ class App extends Component {
 
   componentDidMount() {
     if (!this.state.paths.length) {
-      const paths = [].slice.call(document.getElementsByClassName('path'));
-      console.log(paths)
+      let paths = [].slice.call(document.getElementsByClassName('path'));
+      paths = paths.map(path => {
+        return {
+          x: path.offsetLeft + path.clientWidth / 2,
+          y: path.offsetTop + path.clientHeight / 2,
+        };
+      });
+      paths = paths.sort((a, b) => {
+        if (a.x === b.x) {
+          return a.y > b.y;
+        }
+
+        return a.x < b.x;
+      });
+      paths = paths.reverse();
+      paths.push({x: 10000000, y: paths[paths.length - 1].y});
       this.setState({paths});
+      this.moveEnemy();
     }
   }
+
+  moveEnemy = () => {
+    let i = 0;
+    this.interval = setInterval(
+      () => {
+        this.setState({currentX: this.state.paths[i].x});
+        this.setState({currentY: this.state.paths[i].y});
+        i++;
+        if (i === this.state.paths.length) {
+          clearInterval(this.interval);
+        }
+      },
+      1000,
+    );
+  };
+
   render() {
     return (
       <div className="middle">
@@ -41,20 +74,23 @@ class App extends Component {
           {this.grid.map((square, index) => {
             return square;
           })}
-          {this.state.paths.length && <SpriteSheet
-            style={{
-              width: '10%',
-              position: 'absolute',
-              left: this.state.paths[4].offsetLeft + this.state.paths[4].clientWidth / 2,
-              top: this.state.paths[4].offsetTop + this.state.paths[4].clientHeight / 2
-            }}
-            image={BigBlobSpriteSheet}
-            widthFrame={32}
-            heightFrame={24}
-            steps={10}
-            fps={12}
-            loop
-          />}
+          {this.state.paths.length &&
+            <SpriteSheet
+              ref={ref => this.enemy = ref}
+              style={{
+                width: '50px',
+                position: 'absolute',
+                left: this.state.currentX - 25,
+                top: this.state.currentY,
+                transition: 'all 1s linear',
+              }}
+              image={BigBlobSpriteSheet}
+              widthFrame={32}
+              heightFrame={24}
+              steps={10}
+              fps={12}
+              loop
+            />}
         </div>
       </div>
     );
