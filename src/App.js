@@ -10,7 +10,7 @@ class App extends Component {
     super();
     this.state = {
       paths: [],
-      currentX: -1000,
+      currentX: -100,
       currentY: 0,
     };
     this.grid = [
@@ -34,6 +34,7 @@ class App extends Component {
       let paths = [].slice.call(document.getElementsByClassName('path'));
       paths = paths.map(path => {
         return {
+          width: path.clientWidth,
           x: path.offsetLeft + path.clientWidth / 2,
           y: path.offsetTop + path.clientHeight / 2,
         };
@@ -46,8 +47,8 @@ class App extends Component {
         return a.x < b.x;
       });
       paths = paths.reverse();
-      paths.push({x: 10000000, y: paths[paths.length - 1].y});
-      this.setState({paths});
+      paths.push({x: paths[paths.length - 1].x + 500, y: paths[paths.length - 1].y});
+      this.setState({ paths, currentX: -200, currentY: paths[0].y });
       this.moveEnemy();
     }
   }
@@ -78,9 +79,9 @@ class App extends Component {
             <SpriteSheet
               ref={ref => this.enemy = ref}
               style={{
-                width: '50px',
+                width: '150px',
                 position: 'absolute',
-                left: this.state.currentX - 25,
+                left: this.state.currentX - 75,
                 top: this.state.currentY,
                 transition: 'all 1s linear',
               }}
