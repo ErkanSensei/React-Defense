@@ -41,10 +41,7 @@ class AnimatedSpriteSheet extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props)
     this.timerId = setInterval(() => {
-      console.log(this.state.frame, this.state.maxFrames)
-      
       if (this.state.reversing && this.state.frame === 0) {
         return this.setState({
           reversing: false

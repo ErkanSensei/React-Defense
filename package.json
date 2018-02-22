@@ -5,8 +5,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-spritesheet": "^1.0.1",
-    "shallowequal": "^1.0.2"
+    "react-responsive-spritesheet": "^2.2.2"
   },
   "devDependencies": {
     "react-scripts": "1.1.1"
